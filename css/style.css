@@ -1,0 +1,72 @@
+
+/* jumbotron */
+.jumbotron {
+    background-image: url('http://www.windsongphotoblog.com/wp-content/uploads/2015/10/banner-316.jpg');
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    color: hotpink;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Handlee', cursive;
+}
+
+.name{
+    margin-top: 50px;
+}
+
+.name:hover{
+    color: deeppink;
+}
+
+
+/* navbar */
+.navigation{
+    list-style:none;
+    margin: 0px 10px 10px;
+    padding:0;
+    text-align:center;
+}
+.navigation li{
+    display:inline;
+    font-size: medium;
+    margin: 5px;
+}
+
+.navigation a{
+    display:inline-block;
+    color: hotpink;
+    margin-bottom:10px;
+}
+
+.navigation a:hover{
+    color: deeppink;
+    text-decoration: none;
+}
+
+/* body */
+
+body{
+    background-color: white;
+}
+
+.thumbnail
+{
+    border:solid 1px hotpink;
+}
+.thumbnail:hover
+{
+    border:solid 2px hotpink;
+}
+
+.btn-primary{
+    background: hotpink;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: deeppink;
+}
